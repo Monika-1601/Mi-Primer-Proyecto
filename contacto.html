@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form
+        { 
+            background-color: teal;
+            color: white;
+            vertical-align: center;
+            font-family: Verdana;
+        }
+
+        input{
+            width: 300px;
+            padding:10px;
+            font-family: Verdana;
+        }
+      
+        button{
+              background-color: darkblue;
+              vertical-align: center;
+              color: white;
+              font-family: Verdana;
+        }
+
+        textarea {
+            width: 625px;
+            padding:20px;
+            font-family: Verdana;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+   
+    <form autocomplete="off" action="" >
+        <center> <H1>Contacto</H1> </center>
+
+         <br/>  <br/>
+         <center> 
+         <input name="Nombre" placeholder="Nombre"  type="text" required>
+         
+         <input name="Apellido" placeholder="Apellido"  type="text" required>
+         </center> 
+         <br/>  <br/>
+         <center> 
+         <input name="Email" placeholder="Email"  type="email" required>
+         
+         <input name="Telefono" placeholder="Telefono"  type="phone" required>
+         </center> 
+         <br/>  <br/>
+         <center> 
+         <textarea name="Descripcion" placeholder="Descripcion" > </textarea>
+         <br/>  <br/>
+
+         <button name="Enviar">ENVIAR</button>
+         </center> 
+         <br/>  <br/>
+    </form>
+</body>
+</html>

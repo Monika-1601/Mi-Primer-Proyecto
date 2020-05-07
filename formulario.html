@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input:focus, select:focus
+        {  outline:none;
+
+        }
+        input:focus:invalid
+        {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <form autocomplete="off" action="" >
+        <!-- action para agregar atributos a interpretar del lado del servidor
+             method get y post-->
+        <label> Nombre</label>
+        <hr>  
+        <input minlength="2" pattern="[A-Z]+"  name="nombre" type="text" placeholder="Ingresa tu nombre" required/>
+        <br/> <br/>
+        <label> Edad</label>
+        <hr>
+        <input name="edad" type="number" placeholder="Ingresa tu edad"  required/>
+        <br/> <br/>
+        <label> Elije tu país</label>
+       <selec>
+        <option value="">Seleccionar </option>
+        <option value="peru">Peru </option>
+        <option value="argentina">Argentina </option>
+        <option value="uruguay">Uruguay </option>
+    </selec>
+    <br/> <br/>
+    <label for=""> Elije tu sexo</label>
+    <br/> <br/>
+    <label for="f"> Femenino</label>
+    <input name="sex" id="f" type="radio" checked/>
+    <label for="m"> Masculino</label>
+    <input name="sex" id="m" type="radio" />
+    <br/> <br/>
+    <label> Elije tus hobbies</label>
+    <label for="soccer"> Futbol</label>
+    <input name="hobbies" id="soccer" type="checkbox" />
+    <label for="voley"> Voley</label>
+    <input name="hobbies" id="voley" type="checkbox" checked/>
+    <label for="tennis"> Tennis</label>
+    <input name="hobbies" id="tennis" type="checkbox"/>
+    <br/> <br/>
+    Contraseña
+    <hr>
+    <input name="password" type="password" required/>
+    <br/> <br/>
+    Color
+    <hr>
+    <input type="color"/>
+    <br/> <br/>
+    Fecha
+    <hr>
+    <input type="date"/>
+    <br/> <br/>
+    Email
+    <hr>
+    <input name="email" type="email" required/>
+    <br/> <br/>
+   Range    
+    <hr>
+    <input type="range"/>
+    <br/> <br/>
+   Ingresa Descripcion    
+    <hr>
+    <textarea name="Descripcion" required> </textarea>
+    <br/> <br/>
+    
+   
+    
+</form>
+</body>
+</html>
