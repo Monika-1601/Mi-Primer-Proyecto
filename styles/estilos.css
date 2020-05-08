@@ -1,0 +1,106 @@
+a[href="https://www.google.com"]{
+
+    color: green;
+}
+
+a[href="https://www.facebook.com"]{
+
+    color: blue;
+}
+
+
+    a[href="https://www.linkedin.com"]{
+
+        color: darkmagenta;
+    }
+
+
+    a[href="https://www.youtube.com"]{
+
+        color: red;
+    }
+
+    input[disabled]{
+
+        color: gray;
+    }
+
+    a:hover{
+
+        background-color: blueviolet;
+    }
+
+    li:nth-child(1){
+         background-color:red;    
+
+    }
+
+    li:nth-child(even){
+        background-color:orange;    
+
+   }
+
+   
+   li:nth-child(odd){
+    background-color:red;    
+
+}
+li:last-child{
+    background-color:lightblue;    
+
+}
+
+input:focus{
+
+    outline: none;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+
+}
+
+p::first-line{
+    background:lightcoral;
+}
+
+p::before{
+
+    content:"";
+    font-size: 32px;
+}
+
+p.destacado::first-letter{
+
+    font-size: 42px;
+}
+
+p.destacado::after{
+content: "";
+font-size: 32px;
+}
+
+::selection{
+   color:blue;
+   background-color: pink;
+ 
+}
+
+p{
+
+    line-height: 1.6;
+}
+
+.parrafo{
+
+    font-size: 25px;
+    text-align: center;
+    background: purple;
+    padding: 10px;
+}
+
+.parrafo::first-letter{
+
+    font-size: 42px;
+    color:blue;
+    line-height: 1;
+}

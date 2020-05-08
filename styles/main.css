@@ -1,44 +1,26 @@
 
-.CODIGO {
-    position: absolute;
-    width: 211px;
-    height: 75px;
-    left: 374px;
-    top: 36px;
+.main{
     
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 64px;
-    line-height: 75px;
-    /* identical to box height */    
-    
-    color: #FFFFFF;
 }
 
-.NOMBRE {
-    position: absolute;
-    width: 361px;
-    height: 97px;
-    left: 68px;
-    top: 286px;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 42px;
-    
-    color: #FFFFFF;
- }
+.myskills{
+   background: #7299FE;
+}
 
- .MAINIMG{
-    position: absolute;
-    width: 960px;
-    height: 525px;
-    left: 0px;
-    top: 0px;
-    
-    background: url(images/img1.jpg);
+.services{
+    background: #FB7171;
+}
 
- }
+.portfolio{
+    background: #FFD233;
+}
+.clients{
+
+    background: #3F4E62;
+
+}
+
+.contact{
+    background: #16A085;
+}
+

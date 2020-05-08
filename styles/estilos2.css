@@ -1,0 +1,79 @@
+/* Estilos  */
+
+
+section{
+  border: 1px solid lightcyan;
+   margin-bottom: 20px;
+   padding: 15px;
+
+}
+
+p {
+    color: white;
+}
+
+input{
+    size: 300px;
+}
+
+
+
+.banner{
+    background-color: salmon ;
+    line-height: 1.5;
+}
+
+.banner > h2:nth-child(1) {
+    font-size: 38px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-family: Verdana;
+     color:white;
+    }
+
+.about{
+    background-color: lightseagreen ;
+    line-height: 1.5;
+}
+
+.about > h2:nth-child(1) {
+    font-size: 38px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-family: Verdana;
+     color:navy;
+    }
+
+.services{
+    background-color: lightslategrey ;
+    line-height: 1.5;
+}
+
+.services > h2:nth-child(1) {
+    font-size: 38px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-family: Verdana;
+     color:lightsalmon;
+    }
+
+.contactame{
+
+    line-height: 1.5;
+    border: 1px solid  gray;
+}
+
+
+
+.contactame > h2:nth-child(1) {
+
+    font-size: 38px;
+    line-height: 23px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-family: Verdana;
+     color:orange;
+    }
